@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.menu {
+	background-color: #FF7E14;
+	box-shadow: 0 1px 5px #333;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: fixed;
+	left: 6%;
+	width: 88%;
+}
+
+.menu li {
+	display: inline;
+	margin: 0;
+	margin-right: 20px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.container {
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 100px;
+}
+
+.text {
+	margin-bottom: 25px;
+}
+
+div {
+	color: white;
+}
+
+.block {
+	display: block;
+	background-color: #00CC00;
+	font-family: 'Lato', sans-serif;
+	font-size: 32px;
+}
+.inline-block {
+	display: block;
+	background-color: #0000CC;
+}
+
+.span-text {
+	background-color: #CC0000;
+}
+
+.box {
+	color: black;
+}
+.box-1 {
+	position: relative;
+	border: 1px solid red;
+	overflow: hidden];
+}
+.box-2 {
+	position: absolute;
+	top: 0px;
+	background-color: #ccc;
+}
+
+.candidate {
+	display: inline-block;
+	width: 150px;
+	background-color: #BBB;
+}
+
+.candidate img {
+	min-width: 150px;
+}
+
+.candidate p {
+	color: black;
+	text-align: center;
+}
